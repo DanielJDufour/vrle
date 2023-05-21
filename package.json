@@ -1,0 +1,29 @@
+{
+  "name": "vrle",
+  "version": "0.0.0",
+  "description": "Vectorized Run-Length Encoding",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "encode.js",
+    "decode.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "binary",
+    "compression",
+    "RLE",
+    "run-length",
+    "run-length-encode"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "fast-counter": "^0.1.0",
+    "fast-rle": "^0.1.0",
+    "rle-serializers": "^0.0.0"
+  }
+}
